@@ -181,6 +181,33 @@ span{
     margin-top: 150px;
     height: 600px;
     max-width: 1140px;
+} 
+
+
+.main-paragraph{
+     max-width: 700px;
+  margin: 100px auto 50px auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: auto;
+  position: relative; 
+} 
+.main-para-head{
+   text-align: center;
+  font-size: 48px;
+}
+
+
+.main-para-text{
+  font-weight: lighter;
+  max-width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+  word-break: normal;
+  white-space: normal;
+   
+    
 }
 
 
@@ -253,6 +280,7 @@ span{
     flex-direction: column;
     align-items: center;
     text-align: center;
+     margin-bottom: 180px;
    }
    .dhaka{
     display: none;
@@ -266,8 +294,29 @@ span{
    .main-banar-text{
     margin: 20px auto;
     text-align: center;
+   } 
+
+   .main-para-head{
+       font-size: 32px;
+    padding: 10px 0;
+    margin-top: 20px;
+   }
+   .main-para-text{
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    word-break: normal;
+    white-space: normal;
+   }
+   .main-paragraph{
+     margin: 60px auto 30px auto;
+    padding: 0 15px;
    }
 
+ 
 
 
 
