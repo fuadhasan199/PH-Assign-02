@@ -132,6 +132,59 @@ span{
     box-sizing: border-box;
 }
 
+.main-banar-text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.abc{
+    font-weight: 200;
+    padding-top: 50px;
+  
+} 
+.abc li{
+    gap: 130px;
+}
+.main-banar-text{
+    max-width: 540px;
+    margin-left: 25px;
+}
+
+.main-section-img{
+    width: 100%;
+    position: relative;
+    max-width: 540px;
+}
+
+
+.main-section-img {
+  position: relative;
+  display: inline-block; 
+}
+.bangladesh{
+  width: 100%;
+  display: block;
+  height: auto
+}
+.dhaka{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100px;
+    transform: translate(25%,-28%);
+}
+.main-banar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 600px;
+    max-width: 1140px;
+}
+
+
+
    
 
 
@@ -195,4 +248,27 @@ span{
         font-size: 12px; 
         padding: 5px 10p
    
+   } 
+   .main-banar{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   .dhaka{
+    display: none;
+   }
+   .bangladesh{
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   }
+   .main-banar-text{
+    margin: 20px auto;
+    text-align: center;
+   }
+
+
+
+
 }
