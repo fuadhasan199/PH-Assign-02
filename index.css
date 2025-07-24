@@ -465,10 +465,12 @@ span{
      .footer-laps{
       font-size: 12px;
       gap: 0;
-      
-    
-
-   }
+      } 
+      .input-btn-row{
+         display: flex;
+         width: 80%;
+      } 
+    }
  
 
  
